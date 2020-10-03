@@ -2,7 +2,6 @@ package com.test;
 
 import java.util.List;
 import java.util.StringTokenizer;
-import java.util.function.ToDoubleBiFunction;
 
 public class Main {
 
@@ -13,8 +12,8 @@ public class Main {
     public static void main(String[] args) {
 	// write your code here
         System.out.print("hello java...");
-        String s=new String("dd");
-        String s1=new String("سسی");
+        String s = new String("dd");
+        String s1 = new String("سسی");
         List<Integer> a;
 
         for (StringTokenizer stringTokenizer = new StringTokenizer(s1); stringTokenizer.hasMoreTokens(); ) {
